@@ -15,6 +15,7 @@
   },
   "cds": {
     "build": {
+      "target": ".",
       "tasks": [
         {
           "for": "hana",
@@ -24,6 +25,9 @@
           "for": "node-cf"
         }
       ]
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
     },
     "requires": {
       "db": {

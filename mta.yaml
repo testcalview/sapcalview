@@ -12,7 +12,7 @@ build-parameters:
 modules:
   - name: testcalview-srv
     type: nodejs
-    path: gen/srv
+    path: srv
     parameters:
       buildpack: nodejs_buildpack
     build-parameters:
